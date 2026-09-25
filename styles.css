@@ -1,5 +1,5 @@
 :root {
-  --bg: #1f1712;
+  --bg: #32373c;
   --bg-alt: #2a1f18;
   --surface: #33261d;
   --cream: #f3e9dc;
@@ -52,7 +52,7 @@ h3 { font-size: 1.6rem; }
 /* Header */
 .site-header {
   position: sticky; top: 0; z-index: 10;
-  background: rgba(31, 23, 18, .82); backdrop-filter: blur(10px);
+  background: rgba(50, 55, 60, .85); backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
 }
 .nav { display: flex; align-items: center; justify-content: space-between; height: 68px; }
