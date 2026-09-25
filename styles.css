@@ -1,7 +1,7 @@
 :root {
   --bg: #32373c;
-  --bg-alt: #2a1f18;
-  --surface: #33261d;
+  --bg-alt: #2a2e33;
+  --surface: #3d4349;
   --cream: #f3e9dc;
   --muted: #c4b3a1;
   --copper: #c8834f;
@@ -68,7 +68,7 @@ h3 { font-size: 1.6rem; }
 .hero {
   position: relative; overflow: hidden; min-height: calc(100vh - 68px);
   display: grid; place-items: center; text-align: center; padding: 6rem 0;
-  background: radial-gradient(ellipse at 50% 60%, #4a3222 0%, var(--bg) 65%);
+  background: radial-gradient(ellipse at 50% 60%, #4a5158 0%, var(--bg) 65%);
 }
 .hero-inner { position: relative; z-index: 1; max-width: 760px; }
 .lede { font-size: 1.2rem; color: var(--muted); max-width: 580px; margin: 0 auto 2.2rem; }
@@ -185,7 +185,7 @@ details p { color: var(--muted); margin: .8rem 0 0; }
 .steps span { text-transform: uppercase; letter-spacing: .14em; font-family: var(--sans); font-size: .78rem; font-weight: 600; }
 .hero-details {
   display: inline-block; margin: 0 0 1.4rem; padding: .45em 1.2em; border-radius: 999px;
-  border: 1px solid var(--line); background: rgba(51, 38, 29, .6);
+  border: 1px solid var(--line); background: rgba(61, 67, 73, .6);
   color: var(--gold); font-weight: 500; font-size: .95rem;
 }
 .hero-details span { color: var(--copper); margin: 0 .35em; }
