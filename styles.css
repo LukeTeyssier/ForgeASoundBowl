@@ -199,3 +199,6 @@ details p { color: var(--muted); margin: .8rem 0 0; }
   .hero-details { font-size: .85rem; padding: .45em 1em; }
   .hero-details span { margin: 0 .2em; }
 }
+#guides .cards { grid-template-columns: repeat(2, 1fr); max-width: 820px; }
+.footer-links { display: flex; gap: 1.5rem; }
+@media (max-width: 860px) { #guides .cards { grid-template-columns: 1fr; } }

@@ -4,7 +4,7 @@ Static site (plain HTML/CSS/JS, no build step) deployed on Vercel.
 
 ## Edit before launch
 
-- **Reserve a place** — these links scroll to the contact form (`#contact`). To use a booking page instead, swap in its URL in `index.html`.
+- **Contact / Register** — "Contact" buttons scroll to the contact form (`#contact`); "Register" buttons open the registration page on christinemariemason.com.
 - **Contact form** — connected to Formspree (form `xyezdbbb`). Submissions go to the email set in your Formspree dashboard.
 
 ## Preview locally
