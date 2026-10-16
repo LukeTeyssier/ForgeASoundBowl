@@ -202,3 +202,15 @@ details p { color: var(--muted); margin: .8rem 0 0; }
 #guides .cards { grid-template-columns: repeat(2, 1fr); max-width: 820px; }
 .footer-links { display: flex; gap: 1.5rem; }
 @media (max-width: 860px) { #guides .cards { grid-template-columns: 1fr; } }
+
+/* Perfect for those who */
+.for-you { padding-top: 0; }
+.for-you-list { list-style: none; padding: 0; margin: 2rem 0 0; display: grid; gap: .9rem; }
+.for-you-list li {
+  position: relative; padding-left: 1.8rem;
+  font-family: var(--serif); font-size: clamp(1.3rem, 2.6vw, 1.6rem); line-height: 1.35; color: var(--cream);
+}
+.for-you-list li::before {
+  content: ""; position: absolute; left: 0; top: .55em; width: .55rem; height: .55rem; border-radius: 50%;
+  background: linear-gradient(135deg, var(--gold), var(--copper));
+}
