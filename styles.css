@@ -223,7 +223,7 @@ details p { color: var(--muted); margin: .8rem 0 0; }
 .lede-left { font-family: var(--serif); font-size: clamp(1.4rem, 2.6vw, 1.75rem); line-height: 1.35; margin: 0; }
 .lodging-features {
   list-style: none; padding: 0; margin: 3rem 0 0;
-  display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.5rem;
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem;
 }
 .lodging-features li { border-top: 1px solid var(--copper); padding-top: 1rem; }
 .lodging-features h3 { font-size: 1.35rem; margin-bottom: .3rem; }
@@ -239,5 +239,5 @@ details p { color: var(--muted); margin: .8rem 0 0; }
 @media (max-width: 860px) {
   .lodging-gallery { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 140px; }
 }
-@media (max-width: 1100px) { .lodging-features { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 1100px) { .lodging-features { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) { .lodging-features { grid-template-columns: 1fr; } }
