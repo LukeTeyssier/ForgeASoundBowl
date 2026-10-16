@@ -103,7 +103,7 @@ h3 { font-size: 1.6rem; }
 .card p { color: var(--muted); margin: 0; }
 .card-icon { font-size: 2rem; color: var(--copper); margin-bottom: 1rem; line-height: 1; }
 
-.steps { list-style: none; padding: 0; margin: 2.5rem 0 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+.steps { list-style: none; padding: 0; margin: 2.5rem 0 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; }
 .steps li { border-top: 1px solid var(--copper); padding-top: 1.5rem; }
 .steps span { font-family: var(--serif); font-size: 1.1rem; color: var(--copper); }
 .steps h3 { margin-top: .4rem; }
@@ -215,3 +215,5 @@ details p { color: var(--muted); margin: .8rem 0 0; }
   background: linear-gradient(135deg, var(--gold), var(--copper));
 }
 .steps p + p { margin-top: .8rem; }
+@media (max-width: 1100px) { .steps { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 860px) { .steps { grid-template-columns: 1fr; } }
