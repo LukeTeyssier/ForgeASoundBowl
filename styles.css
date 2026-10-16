@@ -214,3 +214,4 @@ details p { color: var(--muted); margin: .8rem 0 0; }
   content: ""; position: absolute; left: 0; top: .55em; width: .55rem; height: .55rem; border-radius: 50%;
   background: linear-gradient(135deg, var(--gold), var(--copper));
 }
+.steps p + p { margin-top: .8rem; }
