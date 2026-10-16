@@ -242,3 +242,4 @@ details p { color: var(--muted); margin: .8rem 0 0; }
 @media (max-width: 1100px) { .lodging-features { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) { .lodging-features { grid-template-columns: 1fr; } }
 .lodging-features p + p { margin-top: .6rem; }
+.hero-details { margin-bottom: 1.4rem; }
